@@ -37,7 +37,6 @@ export class TSVRentOfferGenerator implements RentOfferGenerator {
     const price = generateRandomValue(MIN_PRICE, MAX_PRICE).toString();
     const conveniences = getRandomItems(this.mockData.conveniences).join(';');
     const firstname = getRandomItem(this.mockData.firstnames);
-    const email = getRandomItem(this.mockData.emails);
     const avatarPath = getRandomItem(this.mockData.avatarPaths);
     const type = getRandomItem(this.mockData.types);
     const commentsCount = getRandomItem(this.mockData.commentsCount);
@@ -53,7 +52,7 @@ export class TSVRentOfferGenerator implements RentOfferGenerator {
     return [
       title, description, createdDate, city, previewImage, housingPhoto,
       isPremium, isFavorite, rating, housingType, roomsCount, guestCount,
-      price, conveniences, firstname, email, avatarPath, type, commentsCount, coordinates
+      price, conveniences, firstname, avatarPath, type, commentsCount, coordinates
     ].join('\t');
   }
 }

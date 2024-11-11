@@ -34,9 +34,7 @@ export class UserEntity extends defaultClasses.TimeStamps implements User {
   public avatarPath: string;
 
   @prop({
-    required: true,
-    minlength: [6, 'Min length of user password is 6'],
-    maxlength: [12, 'Max length of user password is 12']
+    required: true
   })
   public password: string;
 

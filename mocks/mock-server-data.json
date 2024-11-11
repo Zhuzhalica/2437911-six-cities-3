@@ -1,12 +1,12 @@
 {
   "api": {
     "titles": [
-      "title1",
-      "title2",
-      "title3",
-      "title4",
-      "title5",
-      "title6"
+      "title1title1",
+      "title2title2",
+      "title3title3",
+      "title4title4",
+      "title5title5",
+      "title6title6"
     ],
     "descriptions": [
       "descriptionsdescriptions1",
@@ -62,14 +62,6 @@
       "firstname4",
       "firstname5",
       "firstname6"
-    ],
-    "emails": [
-      "email1",
-      "email2",
-      "email3",
-      "email4",
-      "email5",
-      "email6"
     ],
     "avatarPaths": [
       "avatarPath1",
